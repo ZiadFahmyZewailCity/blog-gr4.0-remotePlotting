@@ -70,7 +70,7 @@ I have been building a small proof of concept for this approach for the past wee
    A slider in the dashboard was used to control the frequency of a sine wave. 
    Adjusting the slider sent a control message back to the Python script, which varies the frequency of a sine wave being generated and streamed back to the dashboard.
 
-Here is a video showing it off [Intially made for my mentors but i see no reason why i cant also share it with you guys](https://drive.google.com/file/d/1joxmmHyfAzYCsdj3O6hg9RnatKXc_0ip/view?usp=sharing)
+Here is a video showing it off [Intially made for my mentors but i see no reason why i cant also share it with you guys](https://drive.google.com/file/d/19uLkfcRxAiHKIixbvKXvX_itVzVWdkIY/view?usp=drive_link)
 
 I hope to get the current version of the POC interfaced with a flowgraph soon so we can truly see the feasibilty of the current architecture
 
