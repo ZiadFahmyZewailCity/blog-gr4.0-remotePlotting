@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # Hello ! 
 
 My name is ziad haithem fahmi and this will be my weekly blog on the development of an OOT module for remote monitoring of GR 4.0 flowgraphs as part of google summer of code 2026 under GNU Radio Org
@@ -16,7 +21,7 @@ My name is ziad haithem fahmi and this will be my weekly blog on the development
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
     </li>
   {% endfor %}
 </ul>
