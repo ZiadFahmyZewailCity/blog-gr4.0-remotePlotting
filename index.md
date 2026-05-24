@@ -16,7 +16,7 @@ My name is ziad haithem fahmi and this will be my weekly blog on the development
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

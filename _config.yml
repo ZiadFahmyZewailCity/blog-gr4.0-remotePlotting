@@ -1,3 +1,4 @@
 title: "remoteMonitoring OOT Development blog (GSoC 2026)"
 description: "Weekly blog on development"
 theme: jekyll-theme-minimal
+baseurl: "blog-gr4.0-remotePlotting"
