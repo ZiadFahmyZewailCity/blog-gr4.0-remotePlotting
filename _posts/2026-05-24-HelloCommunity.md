@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Introduction to OOT and me"
+author: "Ziad Fahmi"
 ---
 
 Hello everyone, my name is ziad and i am very happy to be working on an OOT module for GR 4.0 this summer as part of google summer of code.
