@@ -14,7 +14,7 @@ First, I'll give a general overview of how the OOT module is intended to work, t
 
 ### What lives in the browser
 
-The browser-based dashboard is written in C++ and compiled to WebAssembly (WASM) using Emscripten. It's configured via a `.json` config file that specifies each panel, the elements within each panel (plots, sliders, text labels, etc.), and an ID for the data source of each element that will have data pushed to it.
+The browser-based dashboard uses [imGUI](https://github.com/ocornut/imgui), written in C++ and compiled to WebAssembly (WASM) using Emscripten. It's configured via a `.json` config file that specifies each panel, the elements within each panel (plots, sliders, text labels, etc.), and an ID for the data source of each element that will have data pushed to it.
 
 ### What lives in the GR4.0 Flowgraph
 
