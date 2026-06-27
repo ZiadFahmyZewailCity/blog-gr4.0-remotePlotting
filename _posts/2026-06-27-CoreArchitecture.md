@@ -26,7 +26,7 @@ The server dashboard itself is actually comprised of two threads, one for handli
 
 Lets discuss what happens on startup and then i think it would be best to describe the core architecture via the points of communication between the flowgraph, dashboard server, and the dashboard in the browser.
 
-!["Core Architecture Diagram"]()
+![Core Architecture Diagram (Image AI Genearted)](/assets/images/core_architecture.png)
 
 ## What happens on startup of flowgraph ?
 
@@ -76,6 +76,7 @@ The added latency due to the IPC can be considered negligable, the main bottlene
 
 ---
 
+
 # What needs to be done next
 
 There are 3 main things which need to be finished to consider the core architecture completely done.
@@ -88,5 +89,6 @@ There are 3 main things which need to be finished to consider the core architect
 
 Once these three things are done the main core of the module should be good to go.
 
-
 Thanks for reading, see you next week !
+
+[The code for this can be found on the V1_Dev branch of the the repo](https://github.com/ZiadFahmyZewailCity/gr4.0-remotePlotting/tree/V1_Dev)
