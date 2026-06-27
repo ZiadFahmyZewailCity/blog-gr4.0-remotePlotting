@@ -89,6 +89,6 @@ There are 3 main things which need to be finished to consider the core architect
 
 Once these three things are done the main core of the module should be good to go.
 
-Thanks for reading, see you next week !
+Thanks for reading, if you have any, please do send feedback to me via email or on the GNU Radio matrix, see you next week !
 
 [The code for this can be found on the V1_Dev branch of the the repo](https://github.com/ZiadFahmyZewailCity/gr4.0-remotePlotting/tree/V1_Dev)
