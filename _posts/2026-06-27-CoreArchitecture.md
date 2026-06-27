@@ -26,7 +26,7 @@ The server dashboard itself is actually comprised of two threads, one for handli
 
 Lets discuss what happens on startup and then i think it would be best to describe the core architecture via the points of communication between the flowgraph, dashboard server, and the dashboard in the browser.
 
-![Core Architecture Diagram (Image AI Genearted)]({{ site.baseurl }}/assets/images/core_architecture.png)
+![Core Architecture Diagram (Image AI Genearted)]({{ '/assets/images/core_architecture.png' | relative_url }})
 
 ## What happens on startup of flowgraph ?
 
