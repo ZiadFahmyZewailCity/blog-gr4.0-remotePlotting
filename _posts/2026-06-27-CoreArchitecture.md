@@ -30,13 +30,15 @@ Lets discuss what happens on startup and then i think it would be best to descri
 
 ## What happens on startup of flowgraph ?
 
-1) GR4 flowgraph process starts up dashboard server process (note: this is not yet implemented, currently both processes are started manually)
-2) GR4 flowgraph generates config file which states what sinks & widgets are in the flowgraph (note: also not yet implemented, config file is currently written by hand)
+1. GR4 flowgraph process starts up dashboard server process (note: this is not yet implemented, currently both processes are started manually)
+
+2. GR4 flowgraph generates config file which states what sinks & widgets are in the flowgraph (note: also not yet implemented, config file is currently written by hand)
 
 ### Sending dashboard to browser on startup
 
-1) You write in the IP address of the device running the flowgraph in your browser. This sends a http get request to the dashboard server.
-2) The dashboard server on recieving this get request rapidly pushes the configurable dashboard files (`.wasm`, `.js`, `.html`) along side the config file. (The config file specifices to the dashboard what sinks & widgets are present and their IDs so it can distinguish what data is meant for which plot aswell as what header it needs to attach in order to send updates to the widgets)
+1. You write in the IP address of the device running the flowgraph in your browser. This sends a http get request to the dashboard server.
+
+2. The dashboard server on recieving this get request rapidly pushes the configurable dashboard files (`.wasm`, `.js`, `.html`) along side the config file. (The config file specifices to the dashboard what sinks & widgets are present and their IDs so it can distinguish what data is meant for which plot aswell as what header it needs to attach in order to send updates to the widgets)
 
 Once these two steps are done data for the plotting can be sent to the dashboard and updates from widgets can be sent to the flowgraph.
 
