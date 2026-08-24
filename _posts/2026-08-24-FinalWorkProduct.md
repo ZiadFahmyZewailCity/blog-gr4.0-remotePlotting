@@ -2,7 +2,6 @@
 layout: post
 title: "GSoC 2026 Final Work Product: gr4-remotePlotting OOT for GR4"
 author: "Ziad Haithem Fahmi"
-Mentors: Josh Morman, Cyrille Morin
 ---
 
 If you want to get straight to the code, [here is the link to the repository](https://github.com/ZiadFahmyZewailCity/gr4.0-remotePlotting/tree/master) you will find everything you need to get this Out Of Tree (OOT) module running with [GNU Radio 4.0](https://github.com/gnuradio/gnuradio4) (GR4).
@@ -93,4 +92,4 @@ I would like to thank my mentors Josh M & Cyrille Morin for always being helpful
 Name: Ziad Haithem Fahmi
 Email: s-ziad.fahmy@zewailcity.edu.eg
 github: [ZiadFahmyZewailCity](https://github.com/ZiadFahmyZewailCity) 
-linkedin: [link](https://www.linkedin.com/in/ziad-fahmi-940216271/)
+[linkedin] (https://www.linkedin.com/in/ziad-fahmi-940216271/)
