@@ -2,6 +2,7 @@
 layout: post
 title: "GSoC 2026 Final Work Product: gr4-remotePlotting OOT for GR4"
 author: "Ziad Haithem Fahmi"
+Mentors: Josh Morman, Cyrille Morin
 ---
 
 If you want to get straight to the code, [here is the link to the repository](https://github.com/ZiadFahmyZewailCity/gr4.0-remotePlotting/tree/master) you will find everything you need to get this Out Of Tree (OOT) module running with [GNU Radio 4.0](https://github.com/gnuradio/gnuradio4) (GR4).
@@ -9,8 +10,6 @@ If you want to get straight to the code, [here is the link to the repository](ht
 # Overview
 
 This GSoC project has developed an OOT module for GR4 that is a successor to the OOT module [gr-bokehGUI](https://github.com/gnuradio/gr-bokehgui) for GR3.x. It's meant to allow for remote plotting and interactivity with a GR4 flowgraph by creating an imGUI dashboard containing sinks and widgets that runs in the browser. This is especially useful for monitoring and interacting with flowgraphs on headless devices such as embedded systems.
-
-Place a video here
 
 [Here is a quick taste of what the module is capable of]()
 
@@ -84,7 +83,7 @@ This project pushed me a bit outside my comfort zone.
 
 *   **Linux Environment:** setting up the development environment was a hurdle that i had thankfully gotten ready early on. While I had dabbled with Linux in the past, I had never used it for full-scale development. I ultimately decided to use Windows Subsystem for Linux (WSL). Once I spent some time wrestling with the initial networking configurations, it turned out to be a nice environment to develop in and understanding how to tackle build tools and make files was a hassle.
 
-*   **A Performance-Oriented Mindset:** Developing an OOT module for GR4 which is designed for high-speed Software Defined Radios (SDRs) made me mindful of efficiency and keeping the OOT lightweight and high-performance.
+*   **A Performance-Oriented Mindset:** Developing an OOT module for GR4 which is designed for Software Defined Radios (SDRs) made me mindful of keeping the OOT lightweight and high-performance.
 
 # Acknowledgments
 I would like to thank my mentors Josh M & Cyrille Morin for always being helpful and understanding. They gave me the space to explore and learn during the whole 12 weeks.
